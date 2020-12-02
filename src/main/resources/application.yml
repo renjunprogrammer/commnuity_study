@@ -1,3 +1,6 @@
+server:
+  port: 9990
+
 accessToken:
   clientId: "b571cc95681057bdf770"
   clientSecret: "3ec7604f2d47688aa3d734f3059487d2027865c7"
@@ -6,6 +9,7 @@ accessToken:
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/community?serverTimezone=UTC
+    url: jdbc:mysql://101.133.237.25:3306/community?serverTimezone=UTC
     username: root
     password: root
+
